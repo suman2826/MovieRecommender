@@ -1,0 +1,84 @@
+body{
+    background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('movies.jpg');
+    font-family:  'Satisfy', cursive;
+}
+
+.heading{
+    text-align: center;
+    
+    font-family:  'Satisfy', cursive;
+    
+}
+.heading h1{
+    color:#fff;
+    
+    font-family: 'Permanent Marker', cursive;
+    font-size: 40px;
+    padding:5px 0px;
+    background-color: rgba(73, 73, 73, 0.527)
+}
+.input_area{
+    float:left;
+    margin-top:80px;
+    padding:0px 10px;
+    border-radius: 15px;
+    background-color: rgba(34, 147, 155, 0.527);
+
+}
+.input_area h1{
+    color:white;
+    font-size:30px;
+    text-align:center;
+    font-weight: 800;
+    font-family: monospace;
+}
+.output_area{
+    float:right;
+    margin-top:80px;
+    padding:0px 10px;
+    border-radius: 15px;
+    background-color: rgba(34, 147, 155, 0.527);
+    
+}
+.output_area h1{
+    color: white;
+    font-family: monospace;
+    font-size:30px;
+    text-align:center;
+    font-weight: 800;
+
+}
+.output_area h2{
+    color: rgb(238, 238, 238);
+    text-align:center;
+    display:block;
+}
+th{
+    color:black;
+}
+
+/* INPUT MOVIE */
+.input-movie{
+    border-radius: 15px;
+    border:none;
+    height:35px;
+    width:350px;
+    padding:0px 15px;
+    margin-top:35px;
+    margin-bottom:25px;
+}
+.line1{
+    width: 500px;
+    height: 1.2px;
+    margin-left:2px;
+    border-bottom: 2px solid rgb(145, 143, 143);
+    position: absolute;
+    }
+
+.line2{
+    width: 430px;
+    height: 1.2px;
+    margin-left:2px;
+    border-bottom: 2px solid rgb(145, 143, 143);
+    position: absolute;
+    }
