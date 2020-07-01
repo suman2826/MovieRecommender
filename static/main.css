@@ -9,6 +9,9 @@ body{
     font-family:  'Satisfy', cursive;
     
 }
+.whole{
+    text-align: center;
+}
 .heading h1{
     color:#fff;
     
@@ -18,29 +21,42 @@ body{
     background-color: rgba(73, 73, 73, 0.527)
 }
 .input_area{
-    float:left;
-    margin-top:80px;
-    padding:0px 10px;
+    text-align: center;
+    margin-top:50px;
+    margin-left: 25%;
+    width:50%;
+    padding:10px 10px;
+    padding-bottom: 15px;
     border-radius: 15px;
     background-color: rgba(34, 147, 155, 0.527);
 
 }
 .input_area h1{
     color:white;
+    
+    border-bottom:solid rgba(11, 255, 243, 0.575);
+    border-width: 2px 0px;
     font-size:30px;
     text-align:center;
     font-weight: 800;
     font-family: monospace;
 }
 .output_area{
-    float:right;
-    margin-top:80px;
-    padding:0px 10px;
+    
+    width:60%;
+    padding:5px;
+    text-align: center;
+    margin-top:40px;
+    margin-left: 20%;
     border-radius: 15px;
     background-color: rgba(34, 147, 155, 0.527);
     
 }
 .output_area h1{
+    padding:0px -15px;
+    
+    border-bottom:solid rgba(11, 255, 243, 0.575);
+    border-width: 2px 0px;
     color: white;
     font-family: monospace;
     font-size:30px;
@@ -48,10 +64,23 @@ body{
     font-weight: 800;
 
 }
-.output_area h2{
+.output-content{
     color: rgb(238, 238, 238);
+    font-family: monospace !important;
     text-align:center;
-    display:block;
+    font-size:25px;
+    display:grid;
+    align-content: center;
+
+    
+}
+.output-movies{
+    text-align: center;
+    padding-left:2.5rem;
+}
+
+tbody{
+    text-align: center;
 }
 th{
     color:black;
@@ -62,23 +91,16 @@ th{
     border-radius: 15px;
     border:none;
     height:35px;
+    font-family: monospace;
+    font-size:18px;
     width:350px;
     padding:0px 15px;
     margin-top:35px;
     margin-bottom:25px;
 }
-.line1{
-    width: 500px;
-    height: 1.2px;
-    margin-left:2px;
-    border-bottom: 2px solid rgb(145, 143, 143);
-    position: absolute;
-    }
 
-.line2{
-    width: 430px;
-    height: 1.2px;
-    margin-left:2px;
-    border-bottom: 2px solid rgb(145, 143, 143);
-    position: absolute;
+    .submit-button{
+        padding:5px 20px;
+        font-size:18px;
+        font-family: monospace;
     }
