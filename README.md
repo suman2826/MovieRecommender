@@ -10,7 +10,6 @@ python app.py
 ```
 
 <b>Check out the app:</b>
-```
+
 https://movie-recommender-tmdb.herokuapp.com/
-```
 
